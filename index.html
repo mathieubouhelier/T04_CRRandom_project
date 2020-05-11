@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./app/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header><h1>Code Review</h1></header>
+  <main>
+    <aside>
+      <label>Nome:</label>
+      <input type="text" id="tryberName">
+      <label>Cidade:</label>
+      <input type="text" id="tryberCity">
+      <label>Turma:</label>
+      <input type="number" id="sDevNumber">
+      <input type="button" value="ADD Tryber" onclick="marcelo.criarEstudante()">
+    </aside>
+    <article>
+      <section id="estudantesView">
+
+      </section>
+    </article>
+  </main>
+  <script src="./app/js/views/View.js"></script>
+  <script src="./app/js/views/MensagemView.js"></script>
+  <script src="./app/js/views/EstudantesView.js"></script>
+  <script src="./app/js/models/Estudante.js"></script>
+  <script src="./app/js/models/ListaEstudandes.js"></script>
+  <script src="./app/js/controllers/Controller.js"></script>
+  <script>
+    const marcelo = new Controller();
+  </script>
+
+</body>
+</html>

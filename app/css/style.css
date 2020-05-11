@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(blue,green);
+}
+
+article {
+  background-image: linear-gradient(yellow,white);
+}
