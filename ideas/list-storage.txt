@@ -1,0 +1,4 @@
+Name of the new funcionmality: List Storage
+objectif: 
+Store the list (whole object) where the site is hosted (i.e github)
+in that way every user can have access to the list
