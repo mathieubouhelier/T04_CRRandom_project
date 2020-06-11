@@ -8,7 +8,7 @@ class RandomizeView extends View {
      
    return `
    ${model.map(n => `
-   <p>${n}</p><br>
+   <p>${n.nome}</p><br>
    `)}
    `;
  }
